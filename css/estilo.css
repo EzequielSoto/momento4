@@ -1,0 +1,378 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Quicksand&family=Oswald:wght@300;500&family=Roboto:wght@100;400&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box}
+
+
+/*REGLAS GENERALES */
+header {
+	text-align: center;
+}
+header img{
+	width: 10%;}
+
+header img:hover{
+	transform: scale(1.1);
+	transition: transform 0.2s ease;
+}
+
+nav {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #4A4A4A;
+    border-bottom: 1px solid #4A4A4A;
+    margin-bottom: 3%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	background-color: #FFFFFF;
+}
+
+
+nav ul li {
+    width: 20%;
+	margin left: 15%;
+	margin right: 15%;
+    list-style: none;
+    text-align: center;
+	padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+nav ul li a {
+    color: #000000;
+    font-family: "Roboto";
+    text-decoration: none;
+    /*text-shadow: 1px 1px 2px #808080;*/
+    font-size: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+	width: 100%;
+}
+
+nav ul li:hover {
+	transform: scale(1.1);
+	transition: transform 0.2s ease;
+}
+nav ul li a:hover {
+	color: rgba(100,100,100,1);
+	text-decoration: none;
+}
+main {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	background-color: #6F6F6F;
+	margin-top: 5%;
+	text-align: center;
+	padding-bottom: 5px
+}
+footer section{
+    display: flex;
+    text-align: center;
+   
+}
+
+footer section div {
+    width: 31.3%;
+    margin: 1%;
+    text-align: center;
+}
+
+footer section div img {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 25px;
+    max-height: 25px;
+    padding-top: 0px;
+}
+
+footer a{
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer a:hover {
+	color: #000000;
+	text-decoration: none;}
+
+
+/*INDEX*/
+
+
+.cupon{
+	width: 100%
+	height: 45px;
+	background-color: /*#c2b8c2*/ rgb(178, 200, 250);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 2.5%;
+}
+
+.cupon a{
+	text-decoration: none;
+}
+.cupon a:hover h1{
+	color: rgb(60, 60, 60);
+}
+
+.cupon h1{
+	font-family: "oswald";
+	color: #ffffff;
+	font-size:25px;
+}
+
+.iconos {
+	display: flex;
+	justify-content: space-around;
+	font-family: "Oswald"
+}
+.iconos div{width: 20%; text-align: center;}
+.iconos div img{width: 35%}
+
+
+
+/*Pagina NOSOTROS*/
+.nosotros {
+	background-color: #FFFFFF;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 11%
+}
+.historia{	
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: roboto;
+	margin-top: 10%;
+}
+.historia h1{
+	margin-bottom: 2%;
+	font-family: 'quicksand'}
+.historia div p{
+	text-align: justify;
+	font-size: 15px
+}
+.historia div {width: 60%}
+#lucio{
+	width: 40%
+}
+#lucio img{
+	width: 60%;
+	border-radius: 50%;
+	margin-left: 30%
+}
+
+
+.hoy{
+	font-family: roboto;
+	margin-top: 7%
+}
+
+.hoy h1{margin-bottom: 2%; font-family: 'quicksand'}
+.hoy div p{width: 60%; font-size: 15px}
+.hoy div {margin-bottom: 4%}
+.hoy a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1.5%;
+    font-family: "quicksand";
+    text-shadow: 1px 1px 2px #606060;
+    border-radius: 15px;
+    background-color: #ED932E;
+    text-align: center;
+}
+
+.hoy a:hover {
+	transform: scale(1.2);
+	transition: transform 0.2s ease;
+}
+
+/*Página CONTACTO*/
+
+.contacto{
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6%;
+}
+
+.contacto h1{
+	font-family:"oswald";
+	margin-top: 4%;
+	margin-bottom: 8%;
+	text-align: center;
+}
+
+.pedidos{
+	font-family: "Roboto";
+	display: flex;
+	font-size: 15px;
+	margin-bottom: 8%;
+	}
+
+.pedidos div {
+	width: 50%;
+	text-align: justify;
+	padding-right: 10%; 
+}
+.pedidos div h2{
+	margin-bottom: 3%
+}
+
+.pedidos form{width: 50%;}
+
+.pedidos form label{margin-bottom: 3%}
+
+.pedidos form select {
+	margin-bottom: 3%;
+	width: 50%;
+	height: 25px;	
+	border-radius: 5px;
+	border: solid 1px #000000;
+}
+
+.pedidos form input{
+	border-radius: 5px;
+	border: solid 1px #000000;
+	width: 48%;
+	margin-bottom: 3%;
+	height: 35px;
+	padding: 3%;
+}
+
+.pedidos form textarea {
+	width: 100%;
+	border-radius: 5px;
+	border: solid 1px #000000;
+	margin-bottom: 10px
+}
+.input{
+	border-radius: 0;
+	width: 48%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+	height: 25px;
+	padding: 3%;
+	border-radius: 5px;
+	border: solid 1px #000000;
+}
+
+.programa{
+	font-family: "Roboto";
+	display: flex;
+	font-size: 15px;
+	margin-bottom: 8%;
+	margin-top: 8%
+	}
+
+.programa div {
+	width: 50%;
+	text-align: justify;
+	padding-left: 10%; 
+}
+.programa div h2{
+	margin-bottom: 3%;
+	text-align: right;
+}
+
+.programa form{width: 50%;}
+
+.programa form label{
+	margin-bottom: 3%;
+	border-radius: 5px;
+	border: solid 1px #000000;
+	}
+
+.programa form select {
+	margin-bottom: 3%;
+	width: 50%;
+	border-radius: 0;
+	height: 25px
+}
+
+.programa form input{
+	border-radius: 0;
+	width: 48%;
+	margin-bottom: 3%;
+	height: 35px;
+	padding: 3%;
+	border-radius: 5px;
+	border: solid 1px #000000;
+}
+
+.programa form textarea {
+	width: 100%;
+	border-radius: 5px;
+	border: solid 1px #000000;
+	margin-bottom: 10px
+}
+
+#programa {
+	border-radius: 0;
+	width: 100%;
+	margin-bottom: 3%;
+	height: 30px;
+	padding: 3%
+}
+
+.enviar {
+	font-family: "quicksand";
+    text-shadow: 1px 1px 2px #606060;
+    border-radius: 3%;
+    background-color: #ED932E;
+    color: #ffffff;
+    border-style: none;
+    box-shadow: 1px 1px 2px #606060;
+    height: 30px  
+}
+
+
+/* Página COLECCIONES*/
+
+.navcol {margin-bottom: 0px}
+
+.titulocoleccion {
+	text-align: center;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+	font-family: 'quicksand';
+	border-top:  2px solid #4A4A4A;
+	padding-top: 5vh;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.prendas{
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.prendas a {width: 20%}
+.prendas a img{
+	width: 100%;
+	border-radius: 2%
+}
+
+.prendas a:hover {
+	opacity: 0.7;
+	transform: scale(1.07);
+	transition: transform 0.2s ease;
+}

@@ -1,0 +1,288 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Quicksand&family=Oswald:wght@300;500&family=Roboto:wght@100;400&display=swap');
+
+*{padding:0; margin: 0}
+
+html {
+        scroll-behavior: smooth;}
+/*Relevamiento*/
+#relevamiento{
+	background-color: #AFD0D9;
+	height: 100vh
+}
+#relevamiento h1{
+	font-family: 'oswald'
+}
+
+nav{
+width: 100%;
+position: fixed; 
+top: 0;
+height: 6.5vh;
+background-color: #6F6F6F
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+	text-align: center;
+}
+
+nav ul li{
+width: 5%;
+padding: 10px;
+list-style: none;
+text-align: center;
+}
+
+nav ul li a{
+	color: #ffffff;
+	font-family: 'quicksand';
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	color: #000000;
+	text-decoration: none;
+	transform: scale(1.04);
+	transition: transform 0.2 ease
+}
+
+h1{
+	padding-top: 10vh;
+	text-align: center;
+	margin-bottom: 7vh;
+}
+
+.slider{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Marca*/
+#marca{
+	background-color: #FFFFFF;
+	height: 100vh;
+}
+
+#marca h1{
+ font-family: 'quicksand';
+ font-size: 40px
+}
+
+#marca2{
+	display: flex;
+}
+
+#logo {
+	width: 30%;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+#logo img{
+	width: 55%;
+}
+
+#logo h2 {
+	font-family: 'quicksand';
+	margin-bottom: 5vh;
+}
+
+#logo div {
+	display: flex;
+	justify-content: space-around;
+}
+
+#color1 {
+	width: 75px;
+	border-radius: 50%;
+	height: 75px;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
+#color1 div{
+	position: relative;
+}
+#color1 div p{
+	position: absolute;
+	top: 25px;
+	text-align: center;
+}
+
+
+#color2 {
+	width: 75px;
+	border-radius: 50%;
+	height: 75px;
+	background-color: #6F6F6F;
+	border: 2px solid #000000;
+}
+
+#color2 div{
+	position: relative;
+}
+#color2 div p{
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#color3 {
+	width: 75px;
+	border-radius: 50%;
+	height: 75px;
+	background-color: #000000;
+	border: 2px solid #000000;
+}
+
+#color3 div{
+	position: relative;
+}
+#color3 div p{
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	color: #ffffff
+}
+
+#color4 {
+	width: 75px;
+	border-radius: 50%;
+	height: 75px;
+	background-color: #b6d6d1;
+	border: 2px solid #000000;
+}
+
+#color4 div{
+	position: relative;
+}
+#color4 div p{
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	color: #000000
+}
+
+#tipografia{
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 15%;
+}
+
+#roboto p{
+	font-family: 'roboto';
+	text-align: center;
+	margin-bottom: 4px
+}
+
+#roboto h2{
+	font-family: 'roboto';
+	text-align: center;
+}
+
+#oswald h2{
+	text-align: center;
+	font-family: 'oswald';
+	margin-top: 20px
+	}
+#oswald p{
+	text-align: center;
+	font-family: 'oswald';
+	margin-bottom: 4px
+}
+
+#quicksand p{
+	text-align: center;
+	font-family: 'quicksand';
+	margin-bottom: 4px
+}
+#quicksand h2{
+	text-align: center;
+	font-family: 'quicksand';
+	margin-top: 20px
+}
+
+
+
+/*Sitio Web*/
+#sitio{
+	background-color: #b0b0b0;
+	height: 100vh
+}
+#sitio h1 {
+	text-align: center;
+	font-family: 'oswald'
+}
+
+#sitio section{
+	display: flex;
+	justify-content: space-around;
+}
+
+#mapa {
+	width: 35%;
+}
+#mapa a img{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mapa h2{
+	font-family: 'quicksand';
+	text-align: center;
+}
+
+#capturas {
+	width: 35%
+}
+
+#capturas h2{
+	font-family: 'quicksand';
+	text-align: center;
+}
+
+#capturas div {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20vh
+}
+
+#capturas div a{
+	width: 23%
+}
+
+#capturas div a img{
+	width: 100%
+}
+
+.vacia{
+	display: none;
+}
+
+footer{
+	background-color:  #6F6F6F;
+	text-align: center;
+	height: 7vh
+}
+
+footer a{
+	font-family: 'quicksand';
+	text-align: center;
+	color: #ffffff;
+	padding-top: 3vh
+}
+
+footer a:hover {
+	color: #000000;
+	text-decoration: none;
+}
